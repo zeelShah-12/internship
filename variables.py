@@ -60,3 +60,8 @@ import math
 user_radius = float(input("please enter your radius"))
 area_of_circle = math.pi*(user_radius**2)
 print(area_of_circle)
+
+#small project:Student Result Analyzer
+marks=93
+attendance=99
+print("fail" if marks <= 40 and attendance <=50 else "pass-Grade:"+ ("A" if marks >=85 else "B" if marks >=60 else "C" if marks >=40 else "D"))
